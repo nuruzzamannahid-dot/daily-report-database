@@ -1,0 +1,17 @@
+{
+  "name": "carrybee-shift-report-api",
+  "version": "1.0.0",
+  "description": "Backend API that saves CarryBee shift reports into Turso",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.14.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
